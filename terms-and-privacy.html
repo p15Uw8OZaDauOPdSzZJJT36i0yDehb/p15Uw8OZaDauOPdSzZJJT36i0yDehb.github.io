@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta property="og:title" content="Community-Richtlinen" />
+    <meta name="theme-color" content="#ffe100" />
+    <meta property="og:image" content="https://i.imgur.com/DSd8z5E.png">
+    <title>Privacy Policy and Terms of Service</title>
+    <meta property="og:site_name" content="Open Mind"/>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/DSd8z5E.png" type="image/png">
+<style>
+
+        @font-face {
+            font-family: "Nunito";
+            font-weight: 400;
+            font-style: normal;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+
+            margin: 0;
+            outline: 0;
+            padding: 0;
+
+            font-family: "Nunito", sans-serif;
+            font-size: 16px;
+        }
+        body {
+            background-color: #2C2F33;
+            color: #DDD;
+        }
+        h3 {
+            color: #FFF;
+            font-weight: normal;
+        }
+        a.disabled {
+            color: #999;
+            cursor: not-allowed;
+        }
+        a {
+            color: #FFF;
+        }
+        .light {
+            background-color: #FFF;
+            color: #2C2F33;
+        }
+        .light h3 {
+            color: #000;
+            font-weight: normal;
+        }
+        .light a {
+            color: blue;
+        }
+        .light .eyes {
+            filter: invert(1);
+        }
+        input[type="text"] {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid #7289DA;
+            color: #FFF;
+            outline: none;
+            padding: .25em;
+        }
+        input[type="text"].error {
+            border-bottom: 2px solid #F00;
+        }
+        input[type="text"].success {
+            border-bottom: 2px solid #2F2;
+        }
+        .small {
+            font-size: .8em;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 1280px;
+            padding: .5em;
+        }
+        .header, .footer {
+            background-color: #7289DA;
+            color: #FFF;
+        }
+        .header {
+            max-height: 3rem;
+
+            text-align: center;
+
+            z-index: 1;
+        }
+        .header .logo {
+            height: 100%;
+            width: auto;
+
+            max-height: 2.5rem;
+            max-width: 100%;
+
+            object-fit: contain;
+            border-radius: 50%;
+            vertical-align: middle;
+
+        }
+        .header .right-link {
+            float: right;
+            padding: .75em 1em;
+            text-decoration: none;
+            z-index: 1;
+        }
+        .header .right-link.eyes {
+            padding: 0 .5em;
+        }
+        .header .eyes img {
+            height: 100%;
+            width: auto;
+
+            max-height: 3rem;
+            max-width: 100%;
+
+            object-fit: contain;
+
+            vertical-align: middle;
+        }
+        .header .title {
+            font-size: 1.5rem;
+            line-height: 3rem;
+
+            height: 100%;
+
+            vertical-align: middle;
+        }
+        .result .equation {
+            font-size: .8em;
+        }
+        .result .permissions {
+            font-size: 1.5em;
+        }
+        .selector {
+            margin-bottom: 1em;
+            overflow: auto;
+            margin-left: -.5em;
+            margin-right: -.5em;
+        }
+        .selector .col-me-maybe {
+            float: left;
+            margin: 0 auto;
+            min-height: 1px;
+            box-sizing: border-box;
+            padding: 0 .5em;
+            /* More 3s than AP season */
+            width: 100%;
+        }
+        ul {
+            display: inline-block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        input[type="checkbox" i] {
+            box-sizing: border-box;
+            color: inherit;
+            margin: 0;
+            padding: 0;
+        }
+        input[type="checkbox" i]:not(:checked), input[type="checkbox" i]:checked {
+            position: absolute;
+            left: -9999em;
+            opacity: 0;
+        }
+        input[type="checkbox" i]+label {
+            position: relative;
+            padding-left: 1.75em;
+            cursor: pointer;
+            display: inline-block;
+            height: 2em;
+            line-height: 1.375em;
+        }
+        input[type="checkbox" i]+label:after, input[type="checkbox" i]+label:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1em;
+            height: 1em;
+            border: 2px solid #888;
+            border-radius: 2px;
+            transition: .2s;
+            z-index: 0;
+        }
+        input[type="checkbox" i]+label:before {
+            border: 2px solid transparent;
+        }
+        input[type="checkbox" i]:checked+label:after, input[type="checkbox" i]:checked+label:before {
+            content: "";
+            left: 0;
+            position: absolute;
+        }
+        input[type="checkbox" i]:checked+label:after {
+            background-color: #7289DA;
+            border-color: #7289DA;
+        }
+        input[type="checkbox" i]:checked+label:before {
+            top: 0;
+            left: -.1em;
+            width: .2em;
+            height: .6em;
+            border-top: .2em solid transparent;
+            border-right: .2em solid #FFF;
+            border-bottom: .2em solid #FFF;
+            border-left: .2em solid transparent;
+            transform: rotateZ(45deg);
+            transform-origin: 100% 100%;
+            z-index: 1;
+        }
+        .footer {
+            box-sizing: border-box;
+            height: 3em;
+            max-height: 3em;
+            font-size: .8em;
+            margin: 0;
+            padding: 1em;
+        }
+        .large-only {
+            display: none;
+        }
+        .oauth a {
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: bottom;
+            white-space: initial;
+            word-wrap: break-word;
+        }
+        .orangutan-not-orange {
+            color: #FAA61A;
+        }
+        .light .orangutan-not-orange {
+            color: #C88414;
+        }
+        .container.stacky-footer {
+            box-sizing: border-box;
+            z-index: 0;
+            min-height: calc(100vh - 3em - 3em);
+        }
+        @media only screen and (min-width: 640px) {
+            .footer {
+                font-size: 1em;
+            }
+            .large-only {
+                display: inline-block;
+            }
+            span.large-only {
+                display: inline;
+            }
+            .selector .col-me-maybe {
+                /* More 3s than AP season */
+                width: 33.3333333333%;
+            }
+        }
+        p {
+            font-family: Nunito;
+            font-size: 1em;
+        }
+   a {text-decoration: none;}
+    a:hover {text-decoration: underline;}
+    @font-face {
+        font-family: My Font;
+        src: url("dc.ttf");
+    }
+strong {
+  font-size: 1.2em;
+}
+</style>
+</head>
+
+<body bgcolor="#2C2F33">
+<div class="header">
+<img class="logo" src="https://i.imgur.com/DSd8z5E.png" alt="Discord"> <span class="title" style="font-family: My Font;">Privacy Policy and Terms of Service</span>
+</div>
+<div style="padding-right: 1em; padding-left: 1em;">
+  <h1>Terms of Service and Privacy Policy</h1>
+  Nerrix Solutions is located at & Customer Support:<br/><br>
+  <address>
+    Nerrix Solutions<br/>Am Kleebach 23<br />52080 Aachen, Northrhine-Westphalia, Germany<br/>+49 136 2224449<br><br>Email: nerrixde@mailfence.com</address>
+
+<h1>Terms of Service</h1>
+        <h2>Transaction Currency</h2>
+          <p>All invoices will be processed by Stripe however the default currency is Euro (€).
+    If not stated otherwise, all payments are made in Euro.</p>
+        <h2>Transmisson of Payment Card Details</h2>
+          <p>As all payments are processed and handled via Stripe, Nerrix Soulutions does not store any Payment Details whatsoever.
+    Refer to https://stripe.com/ssa for Stripes Terms of Service and agreements.</p>
+        <h2>Offered Services</h2>
+          <p>Nerrix Services only offers custom digital Services. An agreement is made between Nerrix Services and the customer and payment is processed via Stripe Billing Invoices. No goods are shipped nor payments are made without the explicit action of Nerrix Solution representatives.</p>
+<h1>Privacy Policy</h1>
+  <p>It is Nerrix Solutions's policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to <a href="https://shop.discord.id">https://shop.discord.id</a> (hereinafter, "us", "we", or "shop.discord.id"). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy ("Privacy Policy") to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties. This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources.</p>
+  <p>This Privacy Policy, together with the Terms and conditions posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms and conditions.</p>
+
+        <h2>Website Visitors</h2>
+  <p>Like most website operators, Nerrix Solutions collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Nerrix Solutions's purpose in collecting non-personally identifying information is to better understand how Nerrix Solutions's visitors use its website. From time to time, Nerrix Solutions may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
+  <p>Nerrix Solutions also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users and for users leaving comments on https://shop.discord.id blog posts. Nerrix Solutions only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below.</p>
+
+        <h2>Gathering of Personally-Identifying Information</h2>
+  <p>Certain visitors to Nerrix Solutions's websites choose to interact with Nerrix Solutions in ways that require Nerrix Solutions to gather personally-identifying information. The amount and type of information that Nerrix Solutions gathers depends on the nature of the interaction. For example, we ask visitors who sign up for a blog at https://shop.discord.id to provide a username and email address.</p>
+
+        <h2>Security</h2>
+  <p>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+
+
+
+        <h2>Links To External Sites</h2>
+  <p>Our Service may contain links to external sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and terms and conditions of every site you visit.</p>
+  <p>We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites, products or services.</p>
+
+
+
+
+
+        <h2>Cookies</h2>
+  <p>To enrich and perfect your online experience, Nerrix Solutions uses "Cookies", similar technologies and services provided by others to display personalized content, appropriate advertising and store your preferences on your computer.</p>
+  <p>A cookie is a string of information that a website stores on a visitor's computer, and that the visitor's browser provides to the website each time the visitor returns. Nerrix Solutions uses cookies to help Nerrix Solutions identify and track visitors, their usage of https://shop.discord.id, and their website access preferences. Nerrix Solutions visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using Nerrix Solutions's websites, with the drawback that certain features of Nerrix Solutions's websites may not function properly without the aid of cookies.</p>
+  <p>By continuing to navigate our website without changing your cookie settings, you hereby acknowledge and agree to Nerrix Solutions's use of cookies.</p>
+
+        <h2>E-commerce</h2>
+  <p>Those who engage in transactions with Nerrix Solutions – by purchasing Nerrix Solutions's services or products, are asked to provide additional information, including as necessary the personal and financial information required to process those transactions. In each case, Nerrix Solutions collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor's interaction with Nerrix Solutions. Nerrix Solutions does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.</p>
+
+
+        <h2>Privacy Policy Changes</h2>
+  <p>Although most changes are likely to be minor, Nerrix Solutions may change its Privacy Policy from time to time, and in Nerrix Solutions's sole discretion. Nerrix Solutions encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
+
+
+  <h2>Contact Information</h2>
+        If you have any questions about this Privacy Policy, please contact us via <a href="mailto:nerrixde@mailfence.com">email</a></p>
+
+</div>
+</body>
+</html>
